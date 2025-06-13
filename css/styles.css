@@ -134,7 +134,7 @@ ul {
 .advanteges {}
 
 .advanteges-title {
-    color: #2e2f42;
+color: #2e2f42;
 }
 
 .advanteges-list {}
@@ -162,10 +162,12 @@ ul {
 }
 
 .team-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
-.team-list-items {}
+.team-list-items {
+
+}
 
 .team-list-items-photo {}
 
