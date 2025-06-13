@@ -30,9 +30,11 @@ ul {
 }
 
 .hero-banner-button,
-.hero-banner-button:hover {
+.hero-banner-button:hover,
+.hero-banner-button:focus {
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
 .advanteges-list-items-title,
@@ -121,7 +123,9 @@ ul {
 
 .hero-banner-button:hover {
     background-color: #404bbf;
-    cursor: pointer;
+}
+.hero-banner-button:focus {
+    background-color: #404BBF;
 }
 
 /* hero banner end */
@@ -129,7 +133,9 @@ ul {
 /* advanteges start */
 .advanteges {}
 
-.advanteges-title {}
+.advanteges-title {
+    color: #2e2f42;
+}
 
 .advanteges-list {}
 
@@ -151,17 +157,20 @@ ul {
 }
 
 .team-title {
-        
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-list-items {}
 
 .team-list-items-photo {}
 
 .team-list-items-title {
-        
+        color: #2e2f42;
         text-align: center;
 }
 
@@ -176,6 +185,8 @@ ul {
 .portfolio {}
 
 .portfolio-title {
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio-list {}
@@ -185,6 +196,7 @@ ul {
 .portfolio-list-items-photo {}
 
 .portfolio-list-items-title {
+    color: #2e2f42;
 }
 
 .portfolio-list-items-text {
