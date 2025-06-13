@@ -91,10 +91,16 @@ ul {
 }
 
 .header-navigation-list-item {
-
+color: #434455;
+}
+.header-navigation-list-item:focus {
+    color: #404bbf;
 }
 
-.header-contacts {}
+
+.header-contacts {
+    font-style: normal;
+}
 
 .header-contacts-list {}
 
