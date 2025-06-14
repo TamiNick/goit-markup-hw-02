@@ -22,7 +22,8 @@ ul {
 .navigation-links,
 .hero-banner-button,
 .navigation-links:hover,
-.hero-banner-button:hover {
+.hero-banner-button:hover,
+.navigation-links-contacts {
          font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -87,6 +88,13 @@ ul {
 }
 .navigation-links-contacts {
     color: #434455;
+}
+.navigation-links-contacts:hover {
+    color: #404bbf;
+}
+
+.navigation-links-contacts:focus {
+    color: #404bbf;
 }
 
 .navigation-links:hover {
@@ -163,7 +171,7 @@ color: #434455;
 }
 
 .advanteges-list-items-text {
-       
+   color: #434455 ; 
 }
 
 /* advanteges end */
