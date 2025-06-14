@@ -89,6 +89,9 @@ ul {
 .navigation-links:hover {
     color: #404bbf;
 }
+.navigation-links:focus {
+    color: #404bbf;
+}
 
 .header-navigation-list-item {
 color: #434455;
@@ -104,7 +107,9 @@ color: #434455;
 
 .header-contacts-list {}
 
-.header-contacts-list-items {}
+.header-contacts-list-items {
+    font-style: normal;
+}
 
 /* header end */
 
