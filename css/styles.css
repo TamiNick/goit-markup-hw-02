@@ -85,6 +85,9 @@ ul {
 .navigation-links {
         color: #2e2f42;
 }
+.navigation-links-contacts {
+    color: #434455;
+}
 
 .navigation-links:hover {
     color: #404bbf;
@@ -109,6 +112,7 @@ color: #434455;
 
 .header-contacts-list-items {
     font-style: normal;
+    color: #434455;
 }
 
 /* header end */
@@ -142,9 +146,11 @@ color: #434455;
 /* hero banner end */
 
 /* advanteges start */
-.advanteges {}
+.advanteges {
+    color: #2e2f42;
+}
 
-.advanteges-title {
+.title-advantages {
     color: #2e2f42;
 }
 
